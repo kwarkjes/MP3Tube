@@ -3,7 +3,14 @@
     <head>
         <title>Popup</title>
         <script type="text/javascript" src="popup.js"></script>
+        <script type="text/javascript" src="../jquery.min.js"></script>
         <style type="text/css">
+            body {
+                font-family: Arial, Verdana, sans-serif;
+                font-size: 12px;
+                line-height: 16px;
+
+            }
             span.loading {
                 background: url('../images/loading.gif') no-repeat left center transparent;
                 padding-left: 30px;
@@ -12,13 +19,31 @@
                 line-height: 40px;
                 color: #555;
                 font-family: Arial, verdana, sans-serif;
-                font-size: 13px;
+            }
+            span.error {
+                display: none;
+            }
+            div.window {
+                width: 200px;
+            }
+            body.no-youtube {
+                color: red;
+            }
+            body.no-youtube .loading {
+                display: none;
+            }
+            body.no-youtube .error {
+                display: block;
+            }
+            body.no-youtube div.window {
+                width: 300px;
             }
         </style>
     </head>
     <body>
-        <div style="width:200px">
-            <span id="loading">Loading</span>
+        <div class="window">
+            <span class="loading">Loading</span>
+            <span class="error">Iam so sorry! I can't see any youtube video's<br />This isn't a Youtube tab...<br /><em>Open a YouTube video and try again :)</em></span>
         </div>
     </body>
 </html>
