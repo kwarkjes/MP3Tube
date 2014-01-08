@@ -9,24 +9,11 @@
                 font-family: Arial, Verdana, sans-serif;
                 font-size: 12px;
                 line-height: 16px;
-
-            }
-            span.loading {
-                background: url('../images/loading.gif') no-repeat left center transparent;
-                padding-left: 30px;
-                display: block;
-                min-height: 40px;
-                line-height: 40px;
-                color: #555;
-                font-family: Arial, verdana, sans-serif;
             }
             span.error {
                 display: none;
             }
             div.window {
-                width: 200px;
-            }
-            .download div.window {
                 width: auto;
                 height: auto;
             }
@@ -62,8 +49,7 @@
                 background: linear-gradient(to bottom,  #72021c 0%,#860218 44%,#7e0024 100%); /* W3C */
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72021c', endColorstr='#7e0024',GradientType=0 ); /* IE6-9 */
             }
-            body.no-youtube .link,
-            body.no-youtube .loading {
+            body.no-youtube .link {
                 display: none;
             }
             body.no-youtube .error {
@@ -80,8 +66,7 @@
     </head>
     <body>
         <div class="window">
-            <span class="loading">Loading</span>
-            <a class="link" href="#"><strong>Download Mp3</strong></a>
+            <a class="link" href="#"><strong>Download</strong></a>
             <span class="error">Iam so sorry! I can't see any youtube video's<br />This isn't a Youtube tab...<br /><em>Open a YouTube video and try again :)</em></span>
         </div>
     </body>
