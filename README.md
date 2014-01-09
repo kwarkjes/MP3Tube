@@ -1,3 +1,4 @@
+![ScreenShot](/src/icons/128x128.png)
 MP3Tube
 =======
 
