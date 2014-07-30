@@ -7,7 +7,8 @@ Chrome extension for converting movies to mp3 files
 ### Installation:
 - Download the extension  [`MP3Tube.crx`](https://github.com/kwarkjes/MP3Tube/blob/master/MP3Tube.crx?raw=true)
 - Go to Chrome extention page:  `chrome://extensions/`
-- Drag and drop  [`MP3Tube.crx`](https://github.com/kwarkjes/MP3Tube/blob/master/MP3Tube.crx?raw=true) to the extensions window 
+- Drag and drop  [`MP3Tube.crx`](https://github.com/kwarkjes/MP3Tube/blob/master/MP3Tube.crx?raw=true) to the extensions window
+
  _If it fails then check "Developer Mode" at the top_
 
 #### Credits
